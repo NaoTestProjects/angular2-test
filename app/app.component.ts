@@ -1,12 +1,12 @@
 import {Component} from '@angular/core';
 
 @Component({
-    selector: 'pls-app',
+    selector: 'my-app',
     template: `
-        <pls-title [subtitle]="subtitle"></pls-title>     
+        <h1>Angular 2 test app</h1>     
     `
 })
 export class AppComponent {
-    subtitle = '(v1)';
+
 }
 
