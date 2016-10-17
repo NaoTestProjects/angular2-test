@@ -15,6 +15,12 @@ export class Hero {
             <label>name: </label>
             <input [(ngModel)]="hero.name" placeholder="name">
         </div>
+        <div>
+            <input #box (keyup.enter)="0">
+            <p>{{box.value}}</p>
+        </div>
+        
+        
     `
 })
 export class AppComponent {
