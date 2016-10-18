@@ -12,7 +12,9 @@ import {HeroService} from "./hero.service";
         
             <ul>
                 <li *ngFor="let hero of heroes">{{hero}}</li>
-            </ul>  
+            </ul> 
+             
+            <hero-form></hero-form> 
         `
 
 })

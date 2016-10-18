@@ -4,6 +4,7 @@ import {FormsModule} from "@angular/forms";
 
 import {AppComponent} from "./app.component";
 import {LittleTourHeroComponent} from "./little-tour-hero.component";
+import {HeroFormComponent} from "./hero-form.component";
 
 @NgModule({
     imports: [
@@ -12,7 +13,8 @@ import {LittleTourHeroComponent} from "./little-tour-hero.component";
     ],
     declarations: [
         AppComponent,
-        LittleTourHeroComponent
+        LittleTourHeroComponent,
+        HeroFormComponent
     ],
     bootstrap: [LittleTourHeroComponent]
 })
